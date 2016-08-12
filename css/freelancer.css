@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #18BC9C; /*kijelolt kurzor*/
   outline: none;
 }
 h1,
@@ -42,7 +42,7 @@ hr.star-primary {
 }
 hr.star-light:after,
 hr.star-primary:after {
-  content: "\f005";
+  content: "\f005";  /*vag abicska*/
   font-family: FontAwesome;
   display: inline-block;
   position: relative;
@@ -54,22 +54,22 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #18BC9C;  /*csillag hatter*/
   color: white;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: #2C3E50;  /*csillagvonal*/
 }
 hr.star-primary:after {
   background-color: white;
-  color: #2C3E50;
+  color: #2C3E50;  /*csillagfoszin*/
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #18BC9C;  /*felsoszinsav*/
   color: white;
 }
 header .container {
@@ -104,7 +104,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #2C3E50; /*fomenusav*/
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -129,7 +129,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #18BC9C; /* felsomenusav kijelolt kurzor*/
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -138,13 +138,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #18BC9C;  /* kivalasztott menupont felso savon hatter valtas*/
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #18BC9C;  /* kivalsztott menupont  felsosavon kijeloles is hatterszinvaltozik*/
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -154,7 +154,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #18BC9C;  /*nemtudjukhmi*/
   color: white;
   border-color: #18BC9C;
 }
@@ -186,7 +186,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #18BC9C;  /*abaut menupont sav hatterszin*/
   color: white;
 }
 @media (max-width: 767px) {
@@ -249,7 +249,7 @@ section.success {
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;  /*contakt menusav beirkalohelykoztivonal*/
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -282,17 +282,17 @@ section.success {
 }
 .floating-label-form-group:not(:first-child) {
   padding-left: 14px;
-  border-left: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;  /*nemtudjukmi*/
 }
 .floating-label-form-group-with-value label {
   top: 0;
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #18BC9C; /*contacktsav beirtszoveg kivaltott felugro szövegszin*/
 }
 form .row:first-child .floating-label-form-group {
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee; /*contaktmenusav  felsosav*/
 }
 footer {
   color: white;
@@ -302,14 +302,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #2C3E50; /* alsokontaktsav haterszin*/
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: #233140; /*Lablechatterszin*/
 }
 .btn-outline {
   color: white;
@@ -323,23 +323,23 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #18BC9C;  /*contaktikon belsologoszin*/
   background: white;
   border: solid 2px white;
 }
-.btn-primary {
+. {
   color: white;
-  background-color: #2C3E50;
+  background-color: #2C3E50;  /*nemtudjukmi*/
   border-color: #2C3E50;
   font-weight: 700;
 }
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
+.:hover,
+.:focus,
+.:active,
+..active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #1a242f;
+  background-color: #1a242f; /*nemtudjukmi*/
   border-color: #161f29;
 }
 .btn-primary:active,
@@ -362,16 +362,16 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #2C3E50;
+  background-color: #2C3E50; /*nemtudjukmi*/
   border-color: #2C3E50;
 }
 .btn-primary .badge {
-  color: #2C3E50;
+  color: #2C3E50; /*nemtudjukmi*/
   background-color: white;
 }
 .btn-success {
   color: white;
-  background-color: #18BC9C;
+  background-color: #18BC9C; /*contaktsav send hater stb */
   border-color: #18BC9C;
   font-weight: 700;
 }
@@ -381,7 +381,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #128f76;
+  background-color: #128f76;   /*nemtudjukmi*/
   border-color: #11866f;
 }
 .btn-success:active,
@@ -405,10 +405,10 @@ fieldset[disabled] .btn-success:active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
   background-color: #18BC9C;
-  border-color: #18BC9C;
+  border-color: #18BC9C;  /*nemtudjukmi*/
 }
 .btn-success .badge {
-  color: #18BC9C;
+  color: #18BC9C;  /*nemtudjukmi*/
   background-color: white;
 }
 .btn-social {
@@ -480,7 +480,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2C3E50;
+  background-color: #2C3E50;  /*felugroablak bezaras  x jobb vonal*/
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -491,7 +491,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2C3E50;
+  background-color: #2C3E50;  /*felugro ablak x bal vonal*/
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
