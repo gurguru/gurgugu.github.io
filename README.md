@@ -51,6 +51,6 @@ So the changes you've made on the webpage are not saved to the version control s
   The first time you do it, it asks for an __upstream branch__. Just type in the following: `origin/master`.
   Now it should be working fine, and if you load the online webpage, you see the changes madate to it.
 
-  ## Documentation to be added
+## Documentation to be added
 
-  ### Upload to online version control without changing the live webpage
+### Upload to online version control without changing the live webpage
